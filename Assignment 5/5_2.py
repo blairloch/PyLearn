@@ -5,11 +5,10 @@ while True :
     if sval == "done" :
         break
     try:
-        fval = float(sval)
+        fval = int(sval)
     except:
-        print("Invalid Input")
+        print("Invalid input")
         continue
-    print(fval)
     if smallest_num is None :
         smallest_num = fval
     elif fval < smallest_num :
@@ -19,8 +18,8 @@ while True :
     elif fval > largest_num :
         largest_num = fval
 
-print("Smallest Value: ", smallest_num)
-print("Largest Value: ", largest_num)
+print("Maximum is", largest_num)
+print("Minimum is", smallest_num)
 
 
 
