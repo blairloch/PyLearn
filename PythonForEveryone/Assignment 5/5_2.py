@@ -20,6 +20,8 @@ while True :
 
 print("Maximum is", largest_num)
 print("Minimum is", smallest_num)
+print("test test test")
+
 
 
 
